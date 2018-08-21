@@ -1,8 +1,11 @@
 #!/bin/sh
 make clean
-make
-cp fc660c.hex binary/fc660c.hex
-make clean
-make KEYMAP=emu
-cp fc660c.hex binary/fc660c_emu.hex
+# make
+# cp fc660c.hex binary/fc660c.hex
+# make clean
+# make KEYMAP=emu
+# cp fc660c.hex binary/fc660c_emu.hex
+# make clean
+make KEYMAP=russCloak
+cp fc660c.hex binary/fc660c_russCloak.hex
 make clean
